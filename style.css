@@ -4,6 +4,7 @@ body {
     padding: 0;
     font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 16px;
+    /* overflow: hidden; */
 }
 a {
     text-decoration: none;
@@ -19,21 +20,21 @@ li {
 
 .container {
     padding: 0 4em;
-    max-width: 1500px;
+    max-width: 90%;
 }
 .nav {
     justify-content: space-between;
-    padding: 40px;
+    padding: 2.5rem;
     align-items: center;
 }
 
 .main-content {
-    padding: 40px;
+    padding: 2.5rem;
 }
 
 .nav-logo,
 img {
-    width: 100px;
+    width: 30%;
 }
 
 .nav-link, ul, li {
@@ -44,8 +45,8 @@ img {
     border: none;
     background-color: hsl(12, 88%, 59%);
     color: #fff;
-    font-size: 19px;
-    padding: 15px 30px;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
     border-radius: 30px;
     cursor: pointer;
     box-shadow: 5px 5px 10px hsl(12, 60%, 43%);
@@ -63,6 +64,7 @@ img {
 
 .row {
     clear: both;
+    padding-bottom: 5em;
 }
 
 .index {
@@ -71,7 +73,7 @@ img {
 
 .col1-title {
     /* padding-right: 7em; */
-    width: 300px;
+    width: 60%;
     line-height: 1.4em;
     font-weight: 700;
     color: hsl(228, 39%, 23%);
@@ -79,14 +81,14 @@ img {
 
 .col1-body {
     color: hsl(227, 12%, 61%);
-    width: 22em;
+    width: 65%;
     line-height: 1.5em;
-    font-size: 16px;
+    font-size: 1em;
     padding-bottom: 1em;
 }
 
 .col2-img {
-    width: 450px;
+    width: 80%;
 }
 
 .feature-heading {
@@ -99,19 +101,86 @@ img {
 .feature-number {
     color: #fff;
     background-color: hsl(12, 88%, 59%);
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 400;
     align-self: center;
-
-    padding: 4px 14px;
-    border-radius: 16px;
+    padding: 0.15rem 0.9rem;
+    border-radius: 1em;
 }
 
 .details {
-    padding: 0 0 30px 70px;
+    padding: 0 0 2em 4.7em;
     margin: 0;
     color: hsl(227, 12%, 61%);
     width: 28em;
     line-height: 27px;
     font-size: 16px;
 }
+
+/* #testimonial_area {
+    padding: 10% 0;
+} */
+
+.box-area{
+    padding: 30px;
+    background: hsl(0, 0%, 98%);
+    box-shadow: rgba(0,0,0,0.35) 0 5px 15px;
+    margin: 40px 0;
+    display: block;
+    position: relative;
+    border-radius: 10px;
+}
+
+.box-area h5 {
+    font-size: 16px;
+    font-weight: 700;
+    color: hsl(228, 39%, 23%);
+    margin-top: 30px;
+    letter-spacing: 1px;
+}
+
+.box-area .content{
+   color: hsl(227, 12%, 61%);
+   
+}
+
+.box-area .img-area{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: -40px;
+    left: 0;
+    bottom: 0;
+    margin: 0 auto;
+    right: 0;
+    z-index: 0;
+    
+}
+
+.box-area .img-area img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.custom {
+    text-align: center;
+}
+
+h4 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: hsl(228, 39%, 23%);;
+}
+
+/* #testimonial_area .owl-prev,
+#testimonial_area .owl-next{
+width: 2.7rem;
+height: 2.7rem;
+line-height: 2.7rem;
+color: blue;
+border-radius: 50%;
+text-align: center;
+background: #fff;
+position: absolute;
+} */
