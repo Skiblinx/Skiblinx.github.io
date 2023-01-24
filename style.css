@@ -37,6 +37,9 @@ img {
 .nav-link, ul, li {
     margin-right: 30px;
 }
+.nav-link, ul, li, a{
+    color: hsl(228, 39%, 23%);
+}
 
 .action-btn {
     border: none;
@@ -171,7 +174,7 @@ h4 {
 .action_footer {
     justify-content: space-between;
     background-color: hsl(12, 88%, 59%);
-    padding: 2.5em;
+    padding: 2.5rem 10rem;
  }
 
 .footer-text {
@@ -193,4 +196,25 @@ h4 {
 
 .footer-container {
     background:  hsl(233, 12%, 13%);
+    padding: 2.5rem 10rem;
+    justify-content: space-between;
+}
+
+
+.footer-logo {
+    color: #fff;
+    width: 70%;
+    padding-bottom: 5em;
+}
+
+.socials img{
+    width: 11%;
+    padding-right: 0.5em;
+}
+
+.footer-nav-links, ul, li, a{
+    color: hsl(0, 0%, 98%);
+    padding-bottom: 1em;
+    font-weight: normal;
+    font-size: 0.75rem;
 }
