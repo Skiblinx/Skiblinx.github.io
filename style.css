@@ -190,3 +190,7 @@ h4 {
     padding: 1rem 2rem;
     margin-top: 28px;
 }
+
+.footer-container {
+    background:  hsl(233, 12%, 13%);
+}
