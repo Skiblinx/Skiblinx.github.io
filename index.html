@@ -15,80 +15,86 @@
     <title>Manage Landing Page</title>
 </head>
 <body>
-  <div>
-        <header class="nav flex container">
-            <div class="nav-logo">
-                <img src="images/logo.svg" alt="logo">
-            </div>
-
-            <div class="nav-links">
-                <ul class="flex nav__list">
-                    <li><a href="#" class="nav_list_link">Pricing</a></li>
-                    <li><a href="#" class="nav_list_link">Product</a></li>
-                    <li><a href="#" class="nav_list_link">About Us</a></li>
-                    <li><a href="#" class="nav_list_link">Careers</a></li>
-                    <li><a href="#" class="nav_list_link">Community</a></li>
+        <header class="container">
+          <button class="nav-toggle" aria-label="open navigation">
+            <img src="images/icon-hamburger.svg" alt="" class="hamburger">
+        </button>
+            
+        <a href="#" class="logo">
+          <img src="images/logo.svg" alt="Manage logo">
+        </a>
+            
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li><a class="nav__item" href="#" class="nav_list_link">Pricing</a></li>
+                    <li><a class="nav__item" href="#" class="nav_list_link">Product</a></li>
+                    <li><a class="nav__item" href="#" class="nav_list_link">About Us</a></li>
+                    <li><a class="nav__item" href="#" class="nav_list_link">Careers</a></li>
+                    <li><a class="nav__item" href="#" class="nav_list_link">Community</a></li>
                 </ul>
-            </div>
-            <div class= "nav-btn">
-                <button class="action-btn">Get Started</button>
-            </div>
+
+                <button class="btn nav__btn">Get Started</button>
+                
+            </nav>
         </header>
-        <div class="main-content container">
-            <div class="row">
-                <div class="column">
-                    <h1 class="col1-title">Bring everyone together to build better products.</h1>
-                    <p class="col1-body">Manage makes it simple for software teams to plan day-to-day 
+
+        <section class="main row order container">
+                <div class="column col1">
+                    <h1 class="main__title">Bring everyone together to build better products.</h1>
+                    <p class="main__content">Manage makes it simple for software teams to plan day-to-day 
                       tasks while keeping the larger team goals in view.</p>
-                      <button class="action-btn">Get Started</button>
+                      <button class="btn">Get Started</button>
                 </div>
-                <div class="column">
-                  <img class="col2-img" src="images/illustration-intro.svg" alt="Stats">
+                <div class="column illustration">
+                  <img class="main__img" src="images/illustration-intro.svg" alt="Stats">
                 </div>
-            </div>
-            <div class="row">
-              <div class="column">
-                <h2 class="col1-title">What&apos;s different about Manage?</h2>
-                <p class="col1-body">Manage provides all the functionality your team needs, without 
+        </section>
+       
+        <section class="feature row">
+          <div class="column">
+                <h2 class="feature__title">What&apos;s different<br> about Manage?</h2>
+                <p class="feature__content">Manage provides all the functionality your team needs, without 
                   the complexity. Our software is tailor-made for modern digital 
                   product teams.</p>
+          </div>
+          
+          <div class="column feature__list">
+            <div class="feature__item row">
+              <div class="feature__list--heading row d-flex">
+                      <h3 class="feature__number">01</h3>
+                      <h3 class="feature__heading">Track company-wide progress</h3>
               </div>
-              <div class="column">
-                <div class="feature-list">
-                  <div class="feature-item">
-                    <div class="heading flex">
-                      <h3 class="feature-number">01</h3>
-                      <h3 class="feature-heading">Track company-wide progress</h3>
-                    </div>
-                    <p class="details">
-                      See how your day-to-day tasks fit into the wider vision. Go from 
-                      tracking progress at the milestone level all the way done to the 
-                      smallest of details. Never lose sight of the bigger picture again.
-                    </p>
-                  </div>
-                  <div class="feature-item">
-                    <div class="heading flex">
-                      <h3 class="feature-number">02</h3>
-                      <h3 class="feature-heading">Advanced built-in reports</h3>
-                    </div>
-                    <p class="details">
-                      Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build out the reports you need to keep key stakeholders informed.
-                    </p>
-                  </div>
-                  <div class="feature-item">
-                    <div class="heading flex">
-                      <h3 class="feature-number">03</h3>
-                      <h3 class="feature-heading">Everything you need in one place</h3>
-                    </div>
-                    <p class="details">
-                      Stop jumping from one service to another to communicate, store files,track tasks and share documents. Manage offers an all-in-one team productivity solution.
-                    </p>
-                  </div>
-                </div>
+              <p class="feature__list--content">
+                See how your day-to-day tasks fit into the wider vision. Go from 
+                tracking progress at the milestone level all the way done to the 
+                smallest of details. Never lose sight of the bigger picture again.
+              </p>
+            </div>
+
+            <div class="feature__item row">
+              <div class="feature__list--heading row d-flex">
+                      <h3 class="feature__number">02</h3>
+                      <h3 class="feature__heading">Advanced built-in reports</h3>
               </div>
+              <p class="feature__list--content">
+                Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build out the reports you need to keep key stakeholders informed.
+              </p>
+            </div>
+
+            <div class="feature__item row">
+              <div class="feature__list--heading row d-flex">
+                      <h3 class="feature__number">03</h3>
+                      <h3 class="feature__heading">Everything you need in one place</h3>
+              </div>
+              <p class="feature__list--content">
+                Stop jumping from one service to another to communicate, store files,track tasks and share documents. Manage offers an all-in-one team productivity solution.
+              </p>
             </div>
           </div>
-          <section id="testimonial_area">
+
+        </section>
+        
+        <section id="testimonial__area">
             <div>
                 <div class="row">
                     <div class="col-md-12 custom">
@@ -167,65 +173,63 @@
                       </p>
                       </div>
                     </div>
-                    <button class="action-btn">Get Started</button>
+                    <button class="action-btn btn">Get Started</button>
                     </div>
                 </div>
             </div>
-          </section>
-        <section class="footer">
-          <footer>
-              <div class="action_footer flex">
-                <div class="footer-text">
-                  <p>
+        </section>
+        
+        <footer>
+              <div class="primary__footer row">
+                <div class="primary__footer--text">
                     Simplify how your team works today.
-                  </p>
                 </div>
                 <div>
-                  <button class="action-btn reverse-action-btn">Get Started</button>
+                  <button class="btn footer__btn">Get Started</button>
                 </div>
               </div>
-              <div class="footer-container flex">
-                <div class="footer-img">
-                  <a href="#"><img class="footer-logo" src="images/logo.svg" alt="logo"></a>
+              <div class="secondary__footer order row">
+               
+                <div class="secondary__footer--icons">
+                  <a href="#"><img class="footer__logo" src="images/logo.svg" alt="logo"></a>
 
-                  <div class="socials">
-                    <a href="#"><img src="images/icon-facebook.svg" alt="logo"></a>
-                    <a href="#"><img src="images/icon-youtube.svg" alt="logo"></a>
-                    <a href="#"><img src="images/icon-twitter.svg" alt="logo"></a>
-                    <a href="#"><img src="images/icon-pinterest.svg" alt="logo"></a>
-                    <a href="#"><img src="images/icon-instagram.svg" alt="logo"></a>
+                  <div>
+                    <a class="socials" href="#"><img src="images/icon-facebook.svg" alt="logo"></a>
+                    <a class="socials" href="#"><img src="images/icon-youtube.svg" alt="logo"></a>
+                    <a class="socials" href="#"><img src="images/icon-twitter.svg" alt="logo"></a>
+                    <a class="socials" href="#"><img src="images/icon-pinterest.svg" alt="logo"></a>
+                    <a class="socials" href="#"><img src="images/icon-instagram.svg" alt="logo"></a>
                   </div>
-              </div>
-  
-              <div class="footer-nav-links">
-                  <ul>
-                      <li><a href="#">Home</a></li>
-                      <li><a href="#">Pricing</a></li>
-                      <li><a href="#">Product</a></li>
-                      <li><a href="#">About Us</a></li>
-                  </ul>
-              </div>
-
-              <div class="footer-nav-links">
-                <ul>
-                  <li><a href="#">Careers</a></li>
-                  <li><a href="#">Community</a></li>
-                  <li><a href="#">Privacy Policy</a></li>
-                </ul>
-            </div>
-              <div class= "update-area">
-                <input class="input-area"type="email" id="email" name="email" placeholder="Updates in your inbox…">
-                <button class="action-btn input-btn">Go</button>
-                <p class="error-text"></p>
-                <div>
-                  <p class="copy-right">Copyright 2023. All rights reserved</p>
                 </div>
-              </div>
-              </div>
-            </footer>
-          </section>
+  
+                <div class="footer__link d-flex">
+                  <ul class="footer__link--list">
+                      <li class="footer__link--item"><a href="#">Home</a></li class="footer__link--item">
+                      <li class="footer__link--item"><a href="#">Pricing</a></li class="footer__link--item">
+                      <li class="footer__link--item"><a href="#">Product</a></li class="footer__link--item">
+                      <li class="footer__link--item"><a href="#">About Us</a></li class="footer__link--item">
+                  </ul>
+                  
+                  <ul class="footer__link--list">
+                    <li class="footer__link--item"><a href="#">Careers</a></li class="footer__link--item">
+                    <li class="footer__link--item"><a href="#">Community</a></li class="footer__link--item">
+                    <li class="footer__link--item"><a href="#">Privacy Policy</a></li>
+                  </ul>
+                </div>
+              
+                <div class= "update__area">
+                  <input class="input__area"type="email" id="email" name="email" placeholder="Updates in your inbox…">
+                  <button class="btn input__btn">Go</button>
+                  <p class="error-text"></p>
+                </div>
 
-  </div>
+                <div class="copy__right">
+                    <p class="copy-right">Copyright 2023. All rights reserved</p>
+                </div>
+
+              </div>              
+        </footer>
+  
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 

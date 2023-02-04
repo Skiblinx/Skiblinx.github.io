@@ -8,12 +8,13 @@ $(".testimonial_slider_area").owlCarousel({
     dots:false,
     responsive:{
       320:{
-        items:1
-      },
-      767:{
-        items:2
+        items:1,
+        dots:true,
       },
       600:{
+        items:2
+      },
+      767:{
         items:3
       },
       1000:{

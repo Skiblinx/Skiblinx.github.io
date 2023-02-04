@@ -1,0 +1,256 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-image: url("images/bg-simplify-section-desktop.svg");
+    z-index: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    list-style-type: none;
+}
+.flex {
+    display: flex;
+}
+
+.nav {
+    justify-content: space-between;
+    padding: 2.5rem;
+    align-items: center;
+}
+
+.main-content {
+    padding: 2.5rem;
+}
+
+.nav-logo
+img {
+    width: 55%;
+}
+
+.nav_list_link {
+    margin-right: 30px;
+    color: hsl(228, 39%, 23%);
+    transition: opacity, 0.15s;
+}
+
+.nav_list_link:hover{
+    opacity: 0.5;
+    
+}
+
+.action-btn {
+    border: none;
+    background-color: hsl(12, 88%, 59%);
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 1em 2em;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: opacity, 0.15s;
+}
+
+.action-btn:hover {
+    opacity: 0.7;
+    /* box-shadow: 5px 5px 25px hsl(12, 60%, 43%); */
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row {
+    clear: both;
+    padding-bottom: 5em;
+}
+
+.index {
+    width: 80%;
+}
+
+.col1-title {
+    width: 60%;
+    line-height: 1.4em;
+    font-weight: 700;
+    color: hsl(228, 39%, 23%);
+}
+
+.col1-body {
+    color: hsl(227, 12%, 61%);
+    width: 65%;
+    line-height: 1.5em;
+    font-size: 1em;
+    padding-bottom: 1em;
+}
+
+.col2-img {
+    width: 80%;
+}
+
+.feature-heading {
+    float: left;
+    padding-left: 20px;
+    font-weight: 400;
+    color: hsl(228, 39%, 23%)
+}
+
+.feature-number {
+    color: #fff;
+    background-color: hsl(12, 88%, 59%);
+    font-size: 1em;
+    font-weight: 400;
+    align-self: center;
+    padding: 0.15rem 0.9rem;
+    border-radius: 1em;
+}
+
+.details {
+    padding: 0 0 2em 4.7em;
+    margin: 0;
+    color: hsl(227, 12%, 61%);
+    width: 28em;
+    line-height: 27px;
+    font-size: 16px;
+}
+
+.box-area{
+    width: 80%;
+    padding: 30px;
+    background: hsl(0, 0%, 98%);
+    box-shadow: rgba(0,0,0,0.35) 0 5px 15px;
+    margin: 40px 0;
+    display: block;
+    position: relative;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.box-area h5 {
+    font-size: 16px;
+    font-weight: 700;
+    color: hsl(228, 39%, 23%);
+    margin-top: 30px;
+    letter-spacing: 1px;
+}
+
+.box-area .content{
+   color: hsl(227, 12%, 61%);
+   line-height: 25px;
+   
+}
+
+.box-area .img-area{
+    width: 80px;
+    height: 90px;
+    position: absolute;
+    top: -40px;
+    left: 0;
+    bottom: 0;
+    margin: 0 auto;
+    right: 0;
+    z-index: 0;
+    
+}
+
+.box-area .img-area img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.custom {
+    text-align: center;
+}
+
+h4 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: hsl(228, 39%, 23%);;
+}
+
+.action_footer {
+    justify-content: space-between;
+    background-color: hsl(12, 88%, 59%);
+    padding: 2.5rem 10rem;
+ }
+
+.footer-text {
+    color: #fff;
+    font-size: 2rem;
+    width: 40%;
+    font-weight: 700;
+    line-height: 40px;
+    vertical-align: text-top;
+}
+
+.reverse-action-btn{
+    color: hsl(12, 88%, 59%);
+    background: #fff;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    margin-top: 28px;
+}
+
+.footer-container {
+    background:  hsl(233, 12%, 13%);
+    padding: 2.5rem 10rem;
+    justify-content: space-between;
+}
+
+
+.footer-logo {
+    color: #fff;
+    width: 70%;
+    padding-bottom: 5em;
+}
+
+.socials img{
+    width: 11%;
+    padding-right: 0.5em;
+}
+
+.footer-nav-links, li, a{
+    color: hsl(0, 6%, 86%);
+    padding-bottom: 0.6rem;
+    font-weight: normal;
+    font-size: 0.75rem;
+}
+
+.footer-nav-links, li, a:hover{
+    color: hsl(12, 88%, 59%);
+}
+
+.input-area{
+    padding: 0.8rem;
+    font-size: 0.85rem;
+    border: none;
+    border-radius: 20px;
+    margin-right: 8px;
+}
+
+.input-btn{
+    font-size: 0.85em;
+}
+
+.error-text{
+    color:hsl(12, 88%, 59%);
+    font-size: 0.65rem;
+    font-style: italic;
+    margin-top: 4px;
+    padding-left: 15px;
+}
+
+.copy-right{
+    color: hsl(227, 12%, 61%);
+    font-size: 0.85rem;
+    position: absolute;
+    padding: 2rem 0 0 3rem;
+}
