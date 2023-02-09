@@ -7,7 +7,7 @@ $(".testimonial_slider_area").owlCarousel({
     margin:30,
     dots:false,
     responsive:{
-      320:{
+      375:{
         items:1,
         dots:true,
       },
@@ -22,4 +22,11 @@ $(".testimonial_slider_area").owlCarousel({
       }
     }
   
+  })
+
+  const NAVTOGGLE = document.querySelector('.nav-toggle');
+  const NAV = document.querySelector('.nav');
+
+  NAVTOGGLE.addEventListener('click', () => {
+    NAV.classList.toggle('nav--visible');
   })
