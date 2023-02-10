@@ -27,21 +27,15 @@ ul{
     padding: 0;
 }
 
-.nav > button{
+.nav__btn {
     display: none;
 }
 
 p{
     color: hsl(227, 12%, 61%);
     max-width: 80%;
-    text-align: center;
     font-size: .95em;
     line-height: 1.8em;
-    margin: 0 auto;
-}
-
-.logo{
-    
 }
 
 header {
@@ -93,7 +87,6 @@ header {
 
 .container{
     padding: 0 2em;
-    text-align: center;
 }
 
 .order{
@@ -105,6 +98,7 @@ header {
 
 .col1 {
     order: 2;
+    text-align: center;
 }
 
 .illustration {
@@ -115,6 +109,12 @@ header {
     text-align: center;
     line-height: 1.2em;
     color: hsl(228, 39%, 23%);
+}
+
+.main__content,
+.feature__content {
+    margin: 0 auto;
+    text-align: center;
 }
 
 .btn{
@@ -135,7 +135,9 @@ header {
 .feature__title{
     color: hsl(228, 39%, 23%);
     line-height: 1.45em;
+    margin: 0 auto;
     text-align: center;
+    width: 60%;
 }
 
 .d-flex{
@@ -161,6 +163,8 @@ header {
 .feature__list--content{
     text-align: left;
     font-size: .9em;
+    padding-left: 1.5em;
+    max-width: 90%;
 }
 
 .feature__list--heading{
@@ -265,30 +269,82 @@ header {
 
 /* carousel */
 
-@media  (min-width: 464px) {
+@media  (min-width: 600px) {
+    
     .container{
-        margin-right: 0;
+        padding: 0 5em;
     }
-
     .nav-toggle{
         display: none;
     }
 
     .nav{
         visibility: visible;
-        display: flex;
         height: auto;
         position: relative;
-        align-items: center;
-        justify-content: flex-end;
+        width: 40%;
+        padding: auto 0;
     }
 
-   .nav> button{
+    
+   .nav__btn {
     display: block;
+    }
+
+    .btn{
+        margin-top: 0;
+    }
+
+
+    header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
    }
 
-   header{
-    display: flex;
-    /* justify-content: space-around; */
+    .nav__list{
+    float: left;
+    margin-right: 2em;
    }
+
+   .order{
+    flex-direction: row;
+    flex-wrap: nowrap;
+   }
+
+   .column{
+    width: 50%;
+   }
+
+   .col1 {
+    order: 1;
+    text-align: start;
+}
+
+    .main__title{
+    text-align: start;
+    max-width: 70%;
+    }
+
+    .main__content{
+        text-align: start;
+        margin: 0;
+        max-width: 60%;
+        margin-bottom: 2em;
+    }
+
+    .illustration {
+    order: 2;
+    }
+
+    .feature{
+        display: flex;
+    }
+
+    .feature__title{
+        width: 60%;
+        margin: 0;
+        text-align: start;
+    }
+
 }
