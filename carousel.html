@@ -1,77 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.3/css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.3/css/bootstrap-grid.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.css"
+    />
     <style>
-        body{
-            background: #fff;
-        }
+      body {
+        background: #fff;
+      }
 
-        #testimonial_area {
-            padding: 10% 0;
-        }
+      #testimonial_area {
+        padding: 10% 0;
+      }
 
-        .box-area{
-            padding: 30px;
-            background: hsl(0, 0%, 98%);
-            box-shadow: rgba(0,0,0,0.35) 0 5px 15px;
-            margin: 40px 0;
-            display: block;
-            position: relative;
-            border-radius: 10px;
-        }
+      .box-area {
+        padding: 30px;
+        background: hsl(0, 0%, 98%);
+        box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+        margin: 40px 0;
+        display: block;
+        position: relative;
+        border-radius: 10px;
+      }
 
-        .box-area h5 {
-            font-size: 16px;
-            font-weight: 700;
-            color: hsl(228, 39%, 23%);
-            margin-top: 30px;
-            letter-spacing: 1px;
-        }
+      .box-area h5 {
+        font-size: 16px;
+        font-weight: 700;
+        color: hsl(228, 39%, 23%);
+        margin-top: 30px;
+        letter-spacing: 1px;
+      }
 
-        .box-area .content{
-           color: hsl(227, 12%, 61%);
-           
-        }
+      .box-area .content {
+        color: hsl(227, 12%, 61%);
+      }
 
-        .box-area .img-area{
-            width: 90px;
-            height: 90px;
-            position: absolute;
-            top: -40px;
-            left: 0;
-            bottom: 0;
-            margin: 0 auto;
-            right: 0;
-            z-index: 0;
-            
-        }
+      .box-area .img-area {
+        width: 90px;
+        height: 90px;
+        position: absolute;
+        top: -40px;
+        left: 0;
+        bottom: 0;
+        margin: 0 auto;
+        right: 0;
+        z-index: 0;
+      }
 
-        .box-area .img-area img{
-            width: 100%;
-            height: auto;
-            border-radius: 50%;
-        }
+      .box-area .img-area img {
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+      }
 
-        .custom {
-            text-align: center;
-        }
+      .custom {
+        text-align: center;
+      }
 
-        h4 {
-            font-size: 2rem;
-            font-weight: 700;
-            color: hsl(228, 39%, 23%);;
-        }
+      h4 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: hsl(228, 39%, 23%);
+      }
 
-    #testimonial_area .owl-prev,
-    #testimonial_area .owl-next{
+      #testimonial_area .owl-prev,
+      #testimonial_area .owl-next {
         width: 2.7rem;
         height: 2.7rem;
         line-height: 2.7rem;
@@ -80,90 +90,94 @@
         text-align: center;
         background: #fff;
         position: absolute;
-    }
+      }
     </style>
-</head>
-<body>
-    
+  </head>
+  <body>
     <section id="testimonial_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 custom">
-                    <h4>What they&apos;ve said</h4>
-                <div class="testimonial_slider_area text-center owl-carousel">
-                    <div class="box-area">
-                        <div class="img-area">
-                            <img src="images/avatar-anisha.png" alt="Anisha Li">
-                        </div>
-                        <h5>Anisha Li</h5>
-                        <p class="content">
-                            “Manage has supercharged our team&apos;s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”
-                        </p>
-                    </div>
-                    <div class="box-area">
-                    <div class="img-area">
-                        <img src="images/avatar-ali.png" alt="  Ali Bravo">
-                    </div>
-                    <h5>Ali Bravo</h5>
-                    <p class="content">
-                        “We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused.”
-                    </p>
-                    </div>
-                    <div class="box-area">
-                    <div class="img-area">
-                        <img src="images/avatar-richard.png" alt="Richard Watts">
-                    </div>
-                    <h5>Richard Watts</h5>
-                    <p class="content">
-                        “Manage allows us to provide structure and process. It keeps us organized and focused. I can&apos;t stop recommending them to everyone I talk to!”
-                    </p>
-                    </div>
-                    <div class="box-area">
-                    <div class="img-area">
-                        <img src="images/avatar-shanai.png" alt="Shanai Gough">
-                    </div>
-                    <h5>Shanai Gough</h5>
-                    <p class="content">
-                        “Their software allows us to track, manage and collaborate on our projects from anywhere. It keeps the whole team in-sync without being intrusive.”
-                    </p>
-                    </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 custom">
+            <h4>What they&apos;ve said</h4>
+            <div class="testimonial_slider_area text-center owl-carousel">
+              <div class="box-area">
+                <div class="img-area">
+                  <img src="images/avatar-anisha.png" alt="Anisha Li" />
                 </div>
-                <button class="action-btn">Get Started</button>
+                <h5>Anisha Li</h5>
+                <p class="content">
+                  “Manage has supercharged our team&apos;s workflow. The ability
+                  to maintain visibility on larger milestones at all times keeps
+                  everyone motivated.”
+                </p>
+              </div>
+              <div class="box-area">
+                <div class="img-area">
+                  <img src="images/avatar-ali.png" alt="  Ali Bravo" />
                 </div>
+                <h5>Ali Bravo</h5>
+                <p class="content">
+                  “We have been able to cancel so many other subscriptions since
+                  using Manage. There is no more cross-channel confusion and
+                  everyone is much more focused.”
+                </p>
+              </div>
+              <div class="box-area">
+                <div class="img-area">
+                  <img src="images/avatar-richard.png" alt="Richard Watts" />
+                </div>
+                <h5>Richard Watts</h5>
+                <p class="content">
+                  “Manage allows us to provide structure and process. It keeps
+                  us organized and focused. I can&apos;t stop recommending them
+                  to everyone I talk to!”
+                </p>
+              </div>
+              <div class="box-area">
+                <div class="img-area">
+                  <img src="images/avatar-shanai.png" alt="Shanai Gough" />
+                </div>
+                <h5>Shanai Gough</h5>
+                <p class="content">
+                  “Their software allows us to track, manage and collaborate on
+                  our projects from anywhere. It keeps the whole team in-sync
+                  without being intrusive.”
+                </p>
+              </div>
             </div>
+            <button class="action-btn">Get Started</button>
+          </div>
         </div>
-      </section>
-
-
+      </div>
+    </section>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
     <script>
       $(".testimonial_slider_area").owlCarousel({
-        autoplay:true,
-        slideSpeed:2000,
-        items:3,
-        nav:false,
-        navText: ['<i class ="fa fa-arrow-left"></i>', '<i class ="fa fa-arrow-right"></i>'],
-        margin:30,
-        dots:false,
-        responsive:{
-          320:{
-            items:1
+        autoplay: true,
+        slideSpeed: 2000,
+        items: 3,
+        nav: false,
+        navText: [
+          '<i class ="fa fa-arrow-left"></i>',
+          '<i class ="fa fa-arrow-right"></i>',
+        ],
+        margin: 30,
+        dots: false,
+        responsive: {
+          320: {
+            items: 1,
           },
-          767:{
-            items:2
+          600: {
+            items: 2,
           },
-          600:{
-            items:3
+          1000: {
+            items: 3,
           },
-          1000:{
-            items:3
-          }
-        }
-      
-      })
+        },
+      });
     </script>
-</body>
+  </body>
 </html>

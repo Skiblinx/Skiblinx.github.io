@@ -102,7 +102,62 @@
 
         </section>
         
-        
+        <section id="testimonial_area">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 custom">
+                <h4>What they&apos;ve said</h4>
+                <div class="testimonial_slider_area text-center owl-carousel">
+                  <div class="box-area">
+                    <div class="img-area">
+                      <img src="images/avatar-anisha.png" alt="Anisha Li" />
+                    </div>
+                    <h5>Anisha Li</h5>
+                    <p class="content">
+                      “Manage has supercharged our team&apos;s workflow. The ability
+                      to maintain visibility on larger milestones at all times keeps
+                      everyone motivated.”
+                    </p>
+                  </div>
+                  <div class="box-area">
+                    <div class="img-area">
+                      <img src="images/avatar-ali.png" alt="  Ali Bravo" />
+                    </div>
+                    <h5>Ali Bravo</h5>
+                    <p class="content">
+                      “We have been able to cancel so many other subscriptions since
+                      using Manage. There is no more cross-channel confusion and
+                      everyone is much more focused.”
+                    </p>
+                  </div>
+                  <div class="box-area">
+                    <div class="img-area">
+                      <img src="images/avatar-richard.png" alt="Richard Watts" />
+                    </div>
+                    <h5>Richard Watts</h5>
+                    <p class="content">
+                      “Manage allows us to provide structure and process. It keeps
+                      us organized and focused. I can&apos;t stop recommending them
+                      to everyone I talk to!”
+                    </p>
+                  </div>
+                  <div class="box-area">
+                    <div class="img-area">
+                      <img src="images/avatar-shanai.png" alt="Shanai Gough" />
+                    </div>
+                    <h5>Shanai Gough</h5>
+                    <p class="content">
+                      “Their software allows us to track, manage and collaborate on
+                      our projects from anywhere. It keeps the whole team in-sync
+                      without being intrusive.”
+                    </p>
+                  </div>
+                </div>
+                <button class="action-btn">Get Started</button>
+              </div>
+            </div>
+          </div>
+        </section>
         
         <footer>
               <div class="primary__footer">
@@ -156,7 +211,34 @@
   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-
+    
     <script src="script.js"></script>
+
+    <script>
+      $(".testimonial_slider_area").owlCarousel({
+        autoplay: true,
+        slideSpeed: 2000,
+        items: 3,
+        nav: false,
+        navText: [
+          '<i class ="fa fa-arrow-left"></i>',
+          '<i class ="fa fa-arrow-right"></i>',
+        ],
+        margin: 30,
+        dots: false,
+        responsive: {
+          320: {
+            items: 1,
+          },
+          800: {
+            items: 2,
+          },
+          1000: {
+            items: 3,
+          },
+        },
+      });
+    </script>
+
 </body>
 </html>

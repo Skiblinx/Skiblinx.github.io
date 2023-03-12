@@ -50,14 +50,17 @@ header {
 
 .nav{
     width: 100%;
+    /* opacity: 0; */
     visibility: hidden;
     height: 0;
     position: absolute;
-
+    top: 0;
+    
 }
 
 .nav--visible{
-    visibility: visible;
+    /*opacity: 1;
+    */visibility: visible;
     height: auto;
     position: relative;
     background-color: #fff;
@@ -65,6 +68,7 @@ header {
     padding: 1em 0;
     margin-top: 1.5em;
     border-radius: 3px;
+    box-shadow: 2px 2px black;
     text-align: center;
 }
 
@@ -282,6 +286,71 @@ header {
 
 
 /* carousel */
+#testimonial_area {
+    padding: 10% 0;
+  }
+
+  .box-area {
+    padding: 30px;
+    background: hsl(0, 0%, 98%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    margin: 40px 0;
+    display: block;
+    position: relative;
+    border-radius: 10px;
+  }
+
+  .box-area h5 {
+    font-size: 16px;
+    font-weight: 700;
+    color: hsl(228, 39%, 23%);
+    margin-top: 30px;
+    letter-spacing: 1px;
+  }
+
+  .box-area .content {
+    color: hsl(227, 12%, 61%);
+  }
+
+  .box-area .img-area {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: -40px;
+    left: 0;
+    bottom: 0;
+    margin: 0 auto;
+    right: 0;
+    z-index: 0;
+  }
+
+  .box-area .img-area img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  .custom {
+    text-align: center;
+  }
+
+  h4 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: hsl(228, 39%, 23%);
+  }
+
+  #testimonial_area .owl-prev,
+  #testimonial_area .owl-next {
+    width: 2.7rem;
+    height: 2.7rem;
+    line-height: 2.7rem;
+    color: blue;
+    border-radius: 50%;
+    text-align: center;
+    background: #fff;
+    position: absolute;
+  }
 
 @media  (min-width: 600px) {
     
